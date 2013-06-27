@@ -1,0 +1,8 @@
+{
+  "name": "fastclick",
+  "description": "fastclick (polyfill for tap events on mobile) repackaged for meteor.",
+  "homepage": "https://github.com/percolatestudio/meteor-fastclick",
+  "author": "Zoltan Olah <zol@percolatestudio.com>",
+  "version": "0.6.7",
+  "git": "https://github.com/percolatestudio/meteor-fastclick"
+}
