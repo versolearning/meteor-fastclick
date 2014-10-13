@@ -1,1 +1,4 @@
-A straightforward wrapper around the excellent [fastclick](https://github.com/ftlabs/fastclick), a polyfill for tap events on mobile.
+## Deprecated
+
+Please use MDG's fastclick [package](https://atmospherejs.com/meteor/fastclick) instead.
+
