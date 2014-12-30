@@ -1,7 +1,10 @@
 Package.describe({
-  summary: "fastclick repackaged for Meteor"
+  summary: "Faster touch events on mobile",
+  version: '1.0.2'
 });
 
-Package.on_use(function (api, where) {
-  api.add_files('fastclick/lib/fastclick.js', 'client');
+Package.onUse(function (api) {
+  api.export('FastClick', 'web');
+
+  api.addFiles(['pre.js', 'fastclick/lib/fastclick.js', 'post.js'], 'web');
 });
